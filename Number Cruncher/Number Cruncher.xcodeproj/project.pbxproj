@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C0C57F2AAD645D006AA35E /* Number_CruncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C57E2AAD645D006AA35E /* Number_CruncherApp.swift */; };
+		20C0C5812AAD645D006AA35E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C5802AAD645D006AA35E /* ContentView.swift */; };
+		20C0C5832AAD6460006AA35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C0C5822AAD6460006AA35E /* Assets.xcassets */; };
+		20C0C5862AAD6460006AA35E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C0C5852AAD6460006AA35E /* Preview Assets.xcassets */; };
+		20C0C58E2AAD649F006AA35E /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C58D2AAD649F006AA35E /* LaunchAtLogin.swift */; };
+		20C0C5902AAD64BE006AA35E /* NumberCruncherTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0C58F2AAD64BE006AA35E /* NumberCruncherTools.swift */; };
+		20C0C5932AAD6528006AA35E /* BezelNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 20C0C5922AAD6528006AA35E /* BezelNotification */; };
+		20E70EF92AADC18D005B6C1B /* NumberCruncherMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E70EF82AADC18D005B6C1B /* NumberCruncherMonitor.swift */; };
+		20E70EFC2AADFAAB005B6C1B /* MathParser in Frameworks */ = {isa = PBXBuildFile; productRef = 20E70EFB2AADFAAB005B6C1B /* MathParser */; };
+		20E70EFE2AADFD2E005B6C1B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E70EFD2AADFD2E005B6C1B /* Constants.swift */; };
+		20E70F012AADFEC0005B6C1B /* KeySender in Frameworks */ = {isa = PBXBuildFile; productRef = 20E70F002AADFEC0005B6C1B /* KeySender */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2056EBE52AAE197F006A5933 /* Number-Cruncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Number-Cruncher-Info.plist"; sourceTree = SOURCE_ROOT; };
+		20C0C57B2AAD645D006AA35E /* Number Cruncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Cruncher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C0C57E2AAD645D006AA35E /* Number_CruncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_CruncherApp.swift; sourceTree = "<group>"; };
+		20C0C5802AAD645D006AA35E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20C0C5822AAD6460006AA35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C0C5852AAD6460006AA35E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20C0C5872AAD6460006AA35E /* Number_Cruncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Number_Cruncher.entitlements; sourceTree = "<group>"; };
+		20C0C58D2AAD649F006AA35E /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		20C0C58F2AAD64BE006AA35E /* NumberCruncherTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCruncherTools.swift; sourceTree = "<group>"; };
+		20E70EF82AADC18D005B6C1B /* NumberCruncherMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCruncherMonitor.swift; sourceTree = "<group>"; };
+		20E70EFD2AADFD2E005B6C1B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C0C5782AAD645D006AA35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C0C5932AAD6528006AA35E /* BezelNotification in Frameworks */,
+				20E70EFC2AADFAAB005B6C1B /* MathParser in Frameworks */,
+				20E70F012AADFEC0005B6C1B /* KeySender in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C0C5722AAD645D006AA35E = {
+			isa = PBXGroup;
+			children = (
+				20C0C57D2AAD645D006AA35E /* Number Cruncher */,
+				20C0C57C2AAD645D006AA35E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C0C57C2AAD645D006AA35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C0C57B2AAD645D006AA35E /* Number Cruncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C0C57D2AAD645D006AA35E /* Number Cruncher */ = {
+			isa = PBXGroup;
+			children = (
+				2056EBE52AAE197F006A5933 /* Number-Cruncher-Info.plist */,
+				20C0C57E2AAD645D006AA35E /* Number_CruncherApp.swift */,
+				20C0C5802AAD645D006AA35E /* ContentView.swift */,
+				20E70EF82AADC18D005B6C1B /* NumberCruncherMonitor.swift */,
+				20C0C58F2AAD64BE006AA35E /* NumberCruncherTools.swift */,
+				20C0C58D2AAD649F006AA35E /* LaunchAtLogin.swift */,
+				20E70EFD2AADFD2E005B6C1B /* Constants.swift */,
+				20C0C5822AAD6460006AA35E /* Assets.xcassets */,
+				20C0C5872AAD6460006AA35E /* Number_Cruncher.entitlements */,
+				20C0C5842AAD6460006AA35E /* Preview Content */,
+			);
+			path = "Number Cruncher";
+			sourceTree = "<group>";
+		};
+		20C0C5842AAD6460006AA35E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20C0C5852AAD6460006AA35E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C0C57A2AAD645D006AA35E /* Number Cruncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C0C58A2AAD6460006AA35E /* Build configuration list for PBXNativeTarget "Number Cruncher" */;
+			buildPhases = (
+				20C0C5772AAD645D006AA35E /* Sources */,
+				20C0C5782AAD645D006AA35E /* Frameworks */,
+				20C0C5792AAD645D006AA35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Cruncher";
+			packageProductDependencies = (
+				20C0C5922AAD6528006AA35E /* BezelNotification */,
+				20E70EFB2AADFAAB005B6C1B /* MathParser */,
+				20E70F002AADFEC0005B6C1B /* KeySender */,
+			);
+			productName = "Number Cruncher";
+			productReference = 20C0C57B2AAD645D006AA35E /* Number Cruncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C0C5732AAD645D006AA35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					20C0C57A2AAD645D006AA35E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 20C0C5762AAD645D006AA35E /* Build configuration list for PBXProject "Number Cruncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C0C5722AAD645D006AA35E;
+			packageReferences = (
+				20C0C5912AAD6528006AA35E /* XCRemoteSwiftPackageReference "BezelNotification" */,
+				20E70EFA2AADFAAB005B6C1B /* XCRemoteSwiftPackageReference "DDMathParser" */,
+				20E70EFF2AADFEC0005B6C1B /* XCRemoteSwiftPackageReference "KeySender" */,
+			);
+			productRefGroup = 20C0C57C2AAD645D006AA35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C0C57A2AAD645D006AA35E /* Number Cruncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C0C5792AAD645D006AA35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C0C5862AAD6460006AA35E /* Preview Assets.xcassets in Resources */,
+				20C0C5832AAD6460006AA35E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C0C5772AAD645D006AA35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C0C5902AAD64BE006AA35E /* NumberCruncherTools.swift in Sources */,
+				20C0C58E2AAD649F006AA35E /* LaunchAtLogin.swift in Sources */,
+				20C0C5812AAD645D006AA35E /* ContentView.swift in Sources */,
+				20E70EF92AADC18D005B6C1B /* NumberCruncherMonitor.swift in Sources */,
+				20C0C57F2AAD645D006AA35E /* Number_CruncherApp.swift in Sources */,
+				20E70EFE2AADFD2E005B6C1B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20C0C5882AAD6460006AA35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C0C5892AAD6460006AA35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		20C0C58B2AAD6460006AA35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Number Cruncher/Number_Cruncher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Number Cruncher/Preview Content\"";
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Number-Cruncher-Info.plist";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.scripts.Number-Cruncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20C0C58C2AAD6460006AA35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Number Cruncher/Number_Cruncher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Number Cruncher/Preview Content\"";
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Number-Cruncher-Info.plist";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.scripts.Number-Cruncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C0C5762AAD645D006AA35E /* Build configuration list for PBXProject "Number Cruncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C0C5882AAD6460006AA35E /* Debug */,
+				20C0C5892AAD6460006AA35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C0C58A2AAD6460006AA35E /* Build configuration list for PBXNativeTarget "Number Cruncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C0C58B2AAD6460006AA35E /* Debug */,
+				20C0C58C2AAD6460006AA35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20C0C5912AAD6528006AA35E /* XCRemoteSwiftPackageReference "BezelNotification" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yalir/BezelNotification.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		20E70EFA2AADFAAB005B6C1B /* XCRemoteSwiftPackageReference "DDMathParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davedelong/DDMathParser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		20E70EFF2AADFEC0005B6C1B /* XCRemoteSwiftPackageReference "KeySender" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jordanbaird/KeySender.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20C0C5922AAD6528006AA35E /* BezelNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20C0C5912AAD6528006AA35E /* XCRemoteSwiftPackageReference "BezelNotification" */;
+			productName = BezelNotification;
+		};
+		20E70EFB2AADFAAB005B6C1B /* MathParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E70EFA2AADFAAB005B6C1B /* XCRemoteSwiftPackageReference "DDMathParser" */;
+			productName = MathParser;
+		};
+		20E70F002AADFEC0005B6C1B /* KeySender */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E70EFF2AADFEC0005B6C1B /* XCRemoteSwiftPackageReference "KeySender" */;
+			productName = KeySender;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 20C0C5732AAD645D006AA35E /* Project object */;
+}
